@@ -1,0 +1,60 @@
+# Step 1: Go to your home directory
+cd
+
+# Step 2: Create a directory named 'priyanka'
+mkdir priyanka
+
+# Step 3: List to check if it's created
+ls
+
+# Step 4: Create a file named 'priyanka.txt'
+touch priyanka.txt
+
+# Step 5: Create and open 'priyanka1.txt' in gedit editor (write something and save it)
+gedit priyanka1.txt
+
+# Step 6: Copy content from priyanka1.txt to priyanka.txt (overwrite priyanka.txt)
+cp -T priyanka1.txt priyanka.txt
+
+# Step 7: Show calendar
+cal
+
+# Step 8: Show calendar of September 2002
+cal 9 2002
+
+# Step 9: Show today's date
+date
+
+# Step 10: Rename the file (optional but correcting the earlier mv command)
+mv priyanka.txt renamed.txt
+
+# Step 11: Create and then remove a directory
+mkdir remove
+rm -r remove
+
+# Step 12: Compare the contents of two files
+cmp renamed.txt priyanka1.txt
+
+# Step 13: View first 10 lines of a file
+head renamed.txt
+
+# Step 14: Display the entire file content
+cat renamed.txt
+
+# Step 15: Show running processes
+ps
+
+# Step 16: Show terminal type
+tty
+
+# Step 17: Show disk usage of file
+du priyanka1.txt
+
+# Step 18: Try dd command (example to copy file content)
+dd if=priyanka1.txt of=copy.txt bs=1M
+
+# Step 19: See who is logged in
+who
+
+# Step 20: Show your username
+whoami
